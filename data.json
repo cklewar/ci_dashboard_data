@@ -1,0 +1,10 @@
+{
+  "data": [
+    {
+      "url": "performance.staging.volterra.us",
+      "data_branch": "rte",
+      "action": "deploy-sb-test-scale1",
+      "api": "https://gitlab.com/api/v4/projects/46168301/trigger/pipeline"
+    }
+  ]
+}
