@@ -1,8 +1,9 @@
 [
   {
     "url": "performance.staging.volterra.us",
-    "data_branch": "rte",
+    "api": "https://gitlab.com/api/v4/projects/46168301/trigger/pipeline",
+    "name": "scale1",
     "action": "deploy-sb-test-scale1",
-    "api": "https://gitlab.com/api/v4/projects/46168301/trigger/pipeline"
+    "data_branch": "rte"
   }
 ]
