@@ -5,7 +5,7 @@
     "name": "scale1",
     "actions": {
       "test": "deploy-sb-test-scale1",
-      "verification": "deploy-sb-test-verification-scale1"
+      "verification": "deploy-sb-verification-scale1"
     },
     "data_branch": "rte"
   },
@@ -15,7 +15,7 @@
     "name": "scale2",
     "actions": {
       "test": "deploy-sb-test-scale2",
-      "verification": "deploy-sb-test-verification-scale2"
+      "verification": "deploy-sb-verification-scale2"
     },
     "data_branch": "rte"
   },
@@ -25,7 +25,7 @@
     "name": "scale3",
     "actions": {
       "test": "deploy-sb-test-scale2",
-      "verification": "deploy-sb-test-verification-scale2"
+      "verification": "deploy-sb-verification-scale2"
     },
     "data_branch": "rte"
   }
