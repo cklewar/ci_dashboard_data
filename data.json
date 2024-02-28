@@ -3,24 +3,30 @@
     "url": "performance.staging.volterra.us",
     "api": "https://gitlab.com/api/v4/projects/46168301/trigger/pipeline",
     "name": "scale1",
-    "test_action": "deploy-sb-test-scale1",
-    "verification_action": "deploy-sb-test-verification-scale1",
+    "actions": {
+      "test": "deploy-sb-test-scale1",
+      "verification": "deploy-sb-test-verification-scale1"
+    },
     "data_branch": "rte"
   },
   {
     "url": "performance.staging.volterra.us",
     "api": "https://gitlab.com/api/v4/projects/46168301/trigger/pipeline",
     "name": "scale2",
-    "test_action": "deploy-sb-test-scale2",
-    "verification_action": "deploy-sb-test-verification-scale2",
+    "actions": {
+      "test": "deploy-sb-test-scale2",
+      "verification": "deploy-sb-test-verification-scale2"
+    },
     "data_branch": "rte"
   },
   {
     "url": "performance.staging.volterra.us",
     "api": "https://gitlab.com/api/v4/projects/46168301/trigger/pipeline",
     "name": "scale3",
-    "test_action": "deploy-sb-test-scale2",
-    "verification_action": "deploy-sb-test-verification-scale2",
+    "actions": {
+      "test": "deploy-sb-test-scale2",
+      "verification": "deploy-sb-test-verification-scale2"
+    },
     "data_branch": "rte"
   }
 ]
